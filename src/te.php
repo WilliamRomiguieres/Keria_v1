@@ -1,0 +1,5 @@
+<div style="margin:20px; margin-top:5px"><div class="quotetitle"> <input type="button" value="Nouveau sujet" style="font-size:16px;margin:0px;padding:0px;border:none;background-color: white;color:blue;" onclick="if (this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display != '') { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = '';        this.innerText = ''; this.value = 'Cacher'; } else { this.parentNode.parentNode.getElementsByTagName('div')[1].getElementsByTagName('div')[0].style.display = 'none'; this.innerText = ''; this.value = 'Afficher'; }" /></div><div class="quotecontent"><div style="display: none;">
+<form method="post" action="new.php">
+Titre: <input type="text" name="titre"/><br/>
+<textarea cols=30 rows=8></textarea><br/>
+<input type="submit" name="submit" value="Envoyer"/></div></div></div>

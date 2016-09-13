@@ -1,0 +1,12 @@
+<?php
+if(!empty($_POST['captcha']))
+{
+if($_SESSION['code']==$_POST['captcha'])
+{
+echo 'Ok';
+}
+else echo 'Noob';?>
+<img src="captcha.php"/>
+<form method='post' action="test.php">
+<img src="captcha.php"/> <input type="text" name="captcha"/>
+<input type="submit" value="Ok"/>
